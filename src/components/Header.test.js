@@ -45,4 +45,10 @@ describe("Header component", () => {
 
     expect(outputElement).toBeNull();
   });
+
+  test("renders title", () => {
+    render(<Header />);
+    const titleElement = screen.getByText("Title");
+    expect(titleElement).toBeInTheDocument();
+  });
 });

@@ -10,6 +10,7 @@ const Header = () => {
 
   return (
     <div>
+      <h1>Title</h1>
       <h2>Header!</h2>
       {!changedText ? (
         <Output>This is the description</Output>
