@@ -5,6 +5,7 @@ import Header from "./components/Header";
 const App = () => {
   return (
     <div className="App">
+      <h2>This is the index</h2>
       <Header />
       <Async />
     </div>
